@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Account</title>
+
+    <link rel="icon" href="/Images/letter-p.png" type="image/x-icon" />
+    <link rel="stylesheet" href="/CSS/palette.css" />
+    <!-- <link rel="stylesheet" href="/CSS/palette2.css" /> -->
+    <!-- <link rel="stylesheet" href="/CSS/palettesocialmenu.css" /> -->
+    <link rel="stylesheet" href="/CSS?youraccount.css" />
+    <link rel="shortcut icon" type="image/png" href="./plogo.png" />
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/your-path-to-fontawesome/css/fontawesome.css">
+
+    <style>
+      .container {
+        width: 700px;
+        height: 500px;
+        background: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 0 15px;
+      }
+      .intro-text p {
+        margin: 5px 0;
+        font-size: 19px;
+      }
+      .intro-text p a {
+        color: #121212;
+      }
+      form {
+        height: 330px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+      }
+      form input {
+        padding: 12px 7px;
+        outline: none;
+        border: 1px solid #8c8f94;
+      }
+      form input:focus {
+        border-color: #16056b;
+      }
+      .check-box {
+        display: flex;
+      }
+      .check-box label {
+        font-size: 10px;
+        padding: 0 5px;
+      }
+      form button {
+        border: none;
+        outline: none;
+        padding: 11px 0;
+        background: #191a1dec;
+        color: #fff;
+        font-size: 18px;
+        box-shadow: 0 7px 15px rgba(22, 5, 107, 0.3);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="top-banner">
+      <div>
+        <ul class="underlineeffect">
+          <li><a href="/HTML/palettehomepage.html">Homé</a></li>
+          <li><a href="/HTML/aboutpalette.html">About</a></li>
+          <li><a href="/HTML/gallerypalette.html">Gallery</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <br />
+
+    <!-- TITLE OF PAGE  -->
+    <div class="account-header">
+      <h1 class="logo">Account</h1>
+    </div>
+
+    <!-- TYPEWRITER EFFECT FOR LOGO  -->
+    <div class="account-typewrite">
+      <div class="typewriter">
+        <p class="acct-type">let's keep in touch</p>
+      </div>
+    </div>
+
+    <br />
+
+    <center>
+      <div class="container">
+        <div class="intro-text">
+          <h2>Create Account</h2>
+          <p>Already have an account? <a href="loginpage.html">Login</a></p>
+        </div>
+
+        <form action="">
+          <input
+            type="text"
+            name="fullname"
+            placeholder="Full Name"
+            required
+            id=""
+          />
+          <input type="email" name="email" placeholder="Email" required id="" />
+          <input
+            type="password"
+            name="password"
+            placeholder="Password"
+            required
+            id=""
+          />
+          <div class="checkbox">
+            <input type="checkbox" name="" id="check" />
+            <label for="check"
+              >I have read and agreed to the
+              <a href="#">Terms and Privacy</a></label
+            >
+          </div>
+          <button type="submit" id="">Submit</button>
+        </form>
+      </div>
+    </center>
+  </body>
+</html>

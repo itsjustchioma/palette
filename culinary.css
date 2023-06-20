@@ -1,0 +1,10 @@
+@media only screen and (max-width: 400px){
+    div .logo{
+        font-size: 70px;
+    }
+}
+@media only screen and (max-width: 300px){
+    div .logo{
+        font-size: 60px;
+    }
+}
